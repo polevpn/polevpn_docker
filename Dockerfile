@@ -4,4 +4,4 @@ ADD polevpn_server /root/polevpn_server
 EXPOSE 443
 USER root
 WORKDIR /root/polevpn_server
-ENTRYPOINT ./start.sh
+ENTRYPOINT exec ./start.sh
